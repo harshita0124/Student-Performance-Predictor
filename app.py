@@ -4,10 +4,10 @@ import joblib # for loading model
 
 st.set_page_config(
     page_title = "Performance Predictor",
-    page_icon = "🙍‍♀️"
+    page_icon = "🎓"
 )
 
-st.title("Students Performance Prediction")
+st.title("🎓 Students Performance Prediction")
 st.write("It is a simple student performance prediction ML Model, which is trained on Linear Regression Algorithm")
 st.markdown("---")
 
@@ -50,4 +50,5 @@ if st.button("predict"):
         st.warning("You were on the brink of fail")
     else :
         st.success("You passed with good marks!!🎉🎉")
+
 
